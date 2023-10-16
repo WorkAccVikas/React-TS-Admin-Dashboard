@@ -1,0 +1,4 @@
+1. 
+    - Initial Setup.
+    - Setup Routing using react-router-dom. 
+    - Basic Setup Completed for AdminSidebar with styling.
