@@ -1,0 +1,4 @@
+1. conic-gradient()
+    - Design circle filled as per percentage using custom color.
+    - You can see at pages/Dashboard.tsx
+        - see "widget-circle"

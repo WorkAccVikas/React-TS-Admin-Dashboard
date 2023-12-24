@@ -6,3 +6,7 @@
 2. Description : 
     - Design Topbar in Dashboard Page. 
         - See screenshot/img1.png
+
+3. Description : 
+    - Design Widget Container in Dashboard Page.
+        - See screenshot/img2.png
