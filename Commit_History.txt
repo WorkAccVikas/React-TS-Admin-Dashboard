@@ -1,4 +1,8 @@
-1. 
+1. Description : 
     - Initial Setup.
     - Setup Routing using react-router-dom. 
     - Basic Setup Completed for AdminSidebar with styling.
+
+2. Description : 
+    - Design Topbar in Dashboard Page. 
+        - See screenshot/img1.png
