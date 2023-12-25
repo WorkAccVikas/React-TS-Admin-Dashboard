@@ -10,3 +10,8 @@
 3. Description : 
     - Design Widget Container in Dashboard Page.
         - See screenshot/img2.png
+
+4. Description : 
+    - Design Inventory Section in Graph Container in Dashboard Page.
+        - See screenshot/img3.png
+        

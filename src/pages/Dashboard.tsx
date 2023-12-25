@@ -3,6 +3,7 @@ import AdminSidebar from "../components/AdminSidebar";
 import { BsSearch } from "react-icons/bs";
 import userImg from "../assets/userpic.png";
 import { HiTrendingUp, HiTrendingDown } from "react-icons/hi";
+import data from "../assets/data.json";
 
 const Dashboard = () => {
   return (
@@ -47,6 +48,30 @@ const Dashboard = () => {
             color="rgb(76 0 255)"
           />
         </div>
+
+        {/* Graph Container */}
+        <section className="graph-container">
+          {/* Revenue Chart */}
+          <div className="revenue-chart">
+            <h2>Revenue & Transaction</h2>
+            {/* Graph */}
+          </div>
+
+          {/* Inventory */}
+          <div className="dashboard-categories">
+            <h2>Inventory</h2>
+            <div>
+              {data.categories.map((item) => (
+                <CategoryItem
+                  key={item.heading}
+                  heading={item.heading}
+                  value={item.value}
+                  color={`hsl(${item.value * 4}, ${item.value}%,50%)`}
+                />
+              ))}
+            </div>
+          </div>
+        </section>
       </main>
     </div>
   );
@@ -97,6 +122,22 @@ const WidgetItem = ({
       <span style={{ color }}>{percent}%</span>
     </div>
   </article>
+);
+
+interface CategoryItemProps {
+  color: string;
+  value: number;
+  heading: string;
+}
+
+const CategoryItem = ({ color, value, heading }: CategoryItemProps) => (
+  <div className="category-item">
+    <h5>{heading}</h5>
+    <div>
+      <div style={{ backgroundColor: color, width: `${value}%` }}></div>
+    </div>
+    <span>{value}%</span>
+  </div>
 );
 
 export default Dashboard;
