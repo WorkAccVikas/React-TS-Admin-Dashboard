@@ -15,3 +15,7 @@
     - Design Inventory Section in Graph Container in Dashboard Page.
         - See screenshot/img3.png
         
+5. Description : 
+    - Design Bar Chart for Revenue & Transaction in Dashboard Page.
+    - We use library : npm install chart.js react-chartjs-2
+        - See screenshot/img4.png

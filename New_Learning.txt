@@ -2,3 +2,6 @@
     - Design circle filled as per percentage using custom color.
     - You can see at pages/Dashboard.tsx
         - see "widget-circle"
+
+2. npm install chart.js react-chartjs-2
+    - Design BarChart in Dashboard Page at Revenue & Transaction Section

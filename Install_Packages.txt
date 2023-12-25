@@ -1,1 +1,4 @@
 1. npm i react-router-dom sass react-icons
+
+2. npm install chart.js react-chartjs-2
+    - Official Site : https://react-chartjs-2.js.org/
