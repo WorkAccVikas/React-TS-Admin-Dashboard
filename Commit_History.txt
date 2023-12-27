@@ -31,3 +31,7 @@
 8. Description : 
     - Design Product Page.
         - See screenshot/img7.jpg
+
+9. Description : 
+    - Implement Pagination in TableHOC.tsx. 
+        - See screenshot/img8.jpg

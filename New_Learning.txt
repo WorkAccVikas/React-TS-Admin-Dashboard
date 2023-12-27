@@ -9,3 +9,9 @@
 3. Learn following : 
     - How to use React Table in Typescript.
     - How to make use of HOC.
+
+4. Learn following : 
+    - Create react-table-config.d.ts file in src folder.
+    - Add code of react-table-config.d.ts in react-table (https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/react-table)
+        - URL : https://github.com/DefinitelyTyped/DefinitelyTyped
+    - Learn Pagination using react-table
