@@ -5,3 +5,7 @@
 
 2. npm install chart.js react-chartjs-2
     - Design BarChart in Dashboard Page at Revenue & Transaction Section
+
+3. Learn following : 
+    - How to use React Table in Typescript.
+    - How to make use of HOC.

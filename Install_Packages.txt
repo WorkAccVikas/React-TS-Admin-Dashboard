@@ -2,3 +2,7 @@
 
 2. npm install chart.js react-chartjs-2
     - Official Site : https://react-chartjs-2.js.org/
+
+3. Install
+    - npm i react-table
+    - npm i -D @types/react-table

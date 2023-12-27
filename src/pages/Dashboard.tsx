@@ -6,6 +6,7 @@ import { HiTrendingUp, HiTrendingDown } from "react-icons/hi";
 import data from "../assets/data.json";
 import { BarChart, DoughnutChart } from "../components/Charts";
 import { BiMaleFemale } from "react-icons/bi";
+import DashboardTable from "../components/DashboardTable";
 
 const Dashboard = () => {
   return (
@@ -17,7 +18,7 @@ const Dashboard = () => {
         {/* Top Bar */}
         <div className="bar">
           <BsSearch />
-          <input type="text" placeholder="Serach for data, users, docs" />
+          <input type="text" placeholder="Search for data, users, docs" />
           <FaRegBell />
           <img src={userImg} alt="User" />
         </div>
@@ -102,7 +103,7 @@ const Dashboard = () => {
           </div>
 
           {/* Top Transaction Table (React Table) */}
-          
+          <DashboardTable data={data.transaction} />
         </section>
       </main>
     </div>

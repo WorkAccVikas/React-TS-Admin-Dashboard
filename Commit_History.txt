@@ -23,3 +23,7 @@
 6. Description : 
     - Design DoughnutChart means use for Gender Chart in Dashboard Page.
         - See screenshot/img5.jpg
+
+7. Description : 
+    - Design Top Transaction Section in Dashboard Page.
+        - See screenshot/img6.jpg
