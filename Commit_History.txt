@@ -39,3 +39,7 @@
 10. Description : 
     - Design Customer and Transaction Page.
         - See screenshot/img9.jpg, screenshot/img10.jpg
+
+11. Description : 
+    - Design NewProduct Page
+        - See screenshot/img11.jpg
