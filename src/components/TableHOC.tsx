@@ -22,7 +22,7 @@ function TableHOC<T extends object>(
       columns,
       data,
       initialState: {
-        pageSize: 4,
+        pageSize: 4, // from total items only 6 items are showed
       },
     };
 

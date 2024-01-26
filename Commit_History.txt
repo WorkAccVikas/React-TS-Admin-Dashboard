@@ -35,3 +35,7 @@
 9. Description : 
     - Implement Pagination in TableHOC.tsx. 
         - See screenshot/img8.jpg
+
+10. Description : 
+    - Design Customer and Transaction Page.
+        - See screenshot/img9.jpg, screenshot/img10.jpg
