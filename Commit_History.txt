@@ -43,3 +43,7 @@
 11. Description : 
     - Design NewProduct Page
         - See screenshot/img11.jpg
+
+12. Description : 
+    - Design ProductManagement Page
+        - See screenshot/img12.jpg
