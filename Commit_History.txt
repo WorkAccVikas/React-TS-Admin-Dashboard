@@ -59,3 +59,7 @@
 15. Description : 
     - Design PieCharts Page
         - See screenshot/img15.png
+
+16. Description : 
+    - Design LineCharts Page
+        - See screenshot/img16.png
