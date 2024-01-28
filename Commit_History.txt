@@ -47,3 +47,7 @@
 12. Description : 
     - Design ProductManagement Page
         - See screenshot/img12.jpg
+
+13. Description : 
+    - Design TransactionManagement Page
+        - See screenshot/img13.jpg
