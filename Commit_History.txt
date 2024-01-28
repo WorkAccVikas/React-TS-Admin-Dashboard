@@ -67,3 +67,7 @@
 17. Description : 
     - Design Stopwatch Page
         - See screenshot/img17.png
+
+18. Description : 
+    - Design Toss Page
+        - See screenshot/img18.jpg
