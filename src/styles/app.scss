@@ -2,6 +2,7 @@
 @import "dashboard";
 @import "products";
 @import "charts";
+@import "dashboardapp";
 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -147,7 +148,7 @@ a {
 .table-pagination {
   @include flex;
   padding: 2rem;
-  
+
   > button {
     padding: 0.5rem 1rem;
     border: none;

@@ -63,3 +63,7 @@
 16. Description : 
     - Design LineCharts Page
         - See screenshot/img16.png
+
+17. Description : 
+    - Design Stopwatch Page
+        - See screenshot/img17.png
