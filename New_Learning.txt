@@ -15,3 +15,6 @@
     - Add code of react-table-config.d.ts in react-table (https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/react-table)
         - URL : https://github.com/DefinitelyTyped/DefinitelyTyped
     - Learn Pagination using react-table
+
+5. Learn following : 
+    - Copied clipboard functionality in pages/apps/Coupon.tsx
