@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import { Suspense, lazy } from "react";
 import Loader from "./components/Loader";
 
@@ -27,6 +27,14 @@ const App = () => {
       <Suspense fallback={<Loader />}>
         <Routes>
           {/* <Route /> */}
+          <Route
+            path="/"
+            element={
+              <div className="home">
+                <Link to="/admin/dashboard">Visit Dashboard</Link>
+              </div>
+            }
+          />
           <Route path="/admin/dashboard" element={<Dashboard />} />
           <Route path="/admin/product" element={<Products />} />
           <Route path="/admin/customer" element={<Customers />} />

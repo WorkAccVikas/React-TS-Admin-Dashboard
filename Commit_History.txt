@@ -75,3 +75,10 @@
 19. Description : 
     - Design Coupon Page
         - See screenshot/img19.jpg
+
+20. Description : 
+    - Media queries 
+    - Sidebar initially visible for only large screen and 
+        for small screen hamburger icon visible initially,
+        when the user clicks on the hamburger icon Sidebar is visible
+    - Styling circular loader

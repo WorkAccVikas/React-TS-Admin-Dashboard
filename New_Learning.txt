@@ -18,3 +18,8 @@
 
 5. Learn following : 
     - Copied clipboard functionality in pages/apps/Coupon.tsx
+
+6. Learn following : 
+    - Circular loader styling in components/Loader.tsx and app.scss 
+    - SideBar open when big device, for small device sidebar is hide initially but hamburger menu is visible 
+        clicked on hamburger icon and result sidebar visible
