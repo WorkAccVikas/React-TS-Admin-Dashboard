@@ -23,3 +23,7 @@
     - Circular loader styling in components/Loader.tsx and app.scss 
     - SideBar open when big device, for small device sidebar is hide initially but hamburger menu is visible 
         clicked on hamburger icon and result sidebar visible
+
+7. Learn following : 
+    - Conditionally addEventListener
+         When phoneActive = true then addEventListener otherwise removeEventListener

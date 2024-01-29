@@ -19,10 +19,7 @@ import { Link, Location, useLocation } from "react-router-dom";
 
 const AdminSidebar = () => {
   const location = useLocation();
-  console.log(
-    `🚀 ~ file: AdminSidebar.tsx:21 ~ AdminSidebar ~ location:`,
-    location
-  );
+  // console.log(`🚀 ~ file: AdminSidebar.tsx:21 ~ AdminSidebar ~ location:`, location);
 
   const [showModal, setShowModal] = useState<boolean>(false);
   const [phoneActive, setPhoneActive] = useState<boolean>(
@@ -40,6 +37,52 @@ const AdminSidebar = () => {
       window.removeEventListener("resize", resizeHandler);
     };
   }, []);
+
+  /** LEARN : Conditionally addEventListener
+   *  - When phoneActive = true then addEventListener otherwise removeEventListener
+   */
+  useEffect(() => {
+    if (phoneActive) {
+      const handleOutsideClick = (event: MouseEvent) => {
+        if (!event.target) {
+          // console.log("Ravan");
+          return;
+        }
+
+        // console.log("target = ", event.target);
+        // console.log("showModal = ", showModal);
+        // console.log("phoneActive = ", phoneActive);
+        // console.log("Condition = ",!(event.target as HTMLElement).closest("aside"));
+
+        const targetElement = event.target as HTMLElement;
+        const isHamburgerClick =
+          targetElement.id === "hamburger" ||
+          targetElement.closest("#hamburger");
+
+        // console.log(
+        //   `🚀 ~ handleOutsideClick ~ isHamburgerClick:`,
+        //   isHamburgerClick
+        // );
+
+        if (
+          phoneActive &&
+          showModal &&
+          !isHamburgerClick &&
+          !(event.target as HTMLElement).closest("aside")
+        ) {
+          // console.log("Ram................");
+          setShowModal(false);
+        }
+      };
+
+      document.body.addEventListener("click", handleOutsideClick);
+
+      return () => {
+        // console.log("Karaaaaaaaaaaaaaaaaaaan");
+        document.body.removeEventListener("click", handleOutsideClick);
+      };
+    }
+  }, [showModal, phoneActive]);
 
   return (
     <>

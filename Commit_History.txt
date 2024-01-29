@@ -82,3 +82,8 @@
         for small screen hamburger icon visible initially,
         when the user clicks on the hamburger icon Sidebar is visible
     - Styling circular loader
+
+21. Description : 
+    - Attach a click event listener when the variable phoneActive is set to true, indicating a small device. 
+        Conversely, if phoneActive is false, representing a large device, remove the event listener. 
+        Develop a conditional approach to either add or remove the event listener based on the value of phoneActive.
