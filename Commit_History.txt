@@ -87,3 +87,6 @@
     - Attach a click event listener when the variable phoneActive is set to true, indicating a small device. 
         Conversely, if phoneActive is false, representing a large device, remove the event listener. 
         Develop a conditional approach to either add or remove the event listener based on the value of phoneActive.
+
+22. Description : 
+    - Remove unnecessary import
