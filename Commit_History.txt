@@ -90,3 +90,5 @@
 
 22. Description : 
     - Remove unnecessary import
+
+23. Add _redirects file in public folder
